@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #020403 ;
+   font-family: 'Rubik', sans-serif;
+}
+
+.Contenido{
+    color: #FFFFFF;
+    position: relative;
+}
+.Letters .description{
+    color: #adadad;
+    font-size:30px ;
+    margin-bottom: -2rem;
+    
+}
+.Letters .tittle{
+    font-size: 40px;
+}
+
+.Navegador{
+    width: 100%;
+    padding: 30px;
+    font-family:'Rubik', sans-serif ;
+    color: #adadad;
+    position: relative;
+    float: right;
+   
+}
+ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    list-style-type: none;
+    cursor: pointer;
+   
+    
+}
+ul :hover{
+    transform: translateY(-3px) scale(1.05);
+    
+}
+
+
+.Menu {
+    display: none;
+   
+   
+}
+
+.Informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 1.5rem 5rem;
+} 
+
+.Informacion .info{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+
+
+.Contenedores{
+    width: 75%;
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+}
+
+.Contenedores .circle:hover{
+transform: translateY(-3px) scale(1.05);
+}
+.mi-persona{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.mi-persona img{
+    position: relative;
+    left: 260px;
+    bottom: -50px;
+}
+
+
+.mi-persona .Parrafo{
+    color: #adadad;
+    
+
+}
+
+.section-Habilidades{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Ventajas img{
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;
+    background-color: #393D42 ;
+    border: none;
+   
+}
+
+.section-Habilidades .Habilidad{
+    font-size: 40px;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.Experiencia .Tittle3{
+    color: #FFFFFF;
+}
+
+.Experiencia{
+    color: #adadad;
+}
+
+.one{
+   border-top: 1px solid #adadad ;
+   width: 90%;
+   
+}
+
+.Experiencia .Tittle3{
+    text-align: center;
+
+}
+
+.Años{
+   position: relative;
+   bottom: -50px;
+   left: 23px;
+  
+}
+
+.Proyecto{
+   text-align: center;
+   position: relative;
+   bottom: -15px ;
+   color: #FFFFFF;
+  
+}
+.Proyecto2{
+    text-align: center;
+    position: relative;
+    bottom: -3px;
+    left: -26px;
+}
+
+.two{
+    border-top: 1px solid #adadad ;
+    width: 90%;
+    position: relative;
+    bottom:3.2rem ;
+}
+
+.Años2{
+    position: relative;
+    bottom: 5px;
+    left: 23px ;
+}
+
+.Proyecto3{
+    text-align: center;
+    position: relative;
+    bottom: 2.5rem;
+    left: 10px;
+    color: #FFFFFF;
+}
+
+.Proyecto4{
+    text-align: center;
+    position: relative;
+    bottom: 3.2rem;
+    left: -20px;
+}
+
+.Años3{
+    position: relative;
+    bottom: 45px ;
+    left: 23px;
+}
+
+.Proyecto5{
+    text-align: center;
+    position: relative;
+    bottom: 5rem;
+    left: -10px;
+    color: #FFFFFF;
+
+}
+
+.Proyecto6{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 5.7rem;
+    left: -28px;
+}
+
+.Vector{
+    position: relative;
+    bottom: 132px ;
+    left: -70px;
+}
+
+.Evidencias h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: relative;
+    bottom: 190px;
+    left: 20px;
+}
+
+.imagen-p img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 200px;
+    margin-bottom: 50px;
+    
+}
+
+.Servicio1{
+    position: relative;
+    bottom: 142px;
+    left: 50px;
+    gap: 1rem;
+}
+
+.Servicio2{
+    position: relative;
+    left: 248px ;
+    bottom: 339px;
+    
+}
+
+.Servicio1 img {
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color:#393D42;
+  
+  
+}
+
+.Servicio2 img{
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#393D42;
+    cursor: pointer;
+}
+
+.Servicio1 .Contacto{
+    position: relative;
+    left: -20px;
+    font-size: 18px;
+
+}
+
+.Servicio1 .Contacto2{
+    position: relative;
+    left: -10px;
+    bottom: 10px;
+    font-size: 15px;
+}
+
+.Servicio2 .EmailP{
+    position: relative;
+    left: 25px;
+    bottom: 5px;
+    font-size: 18px;
+   
+}
+
+.Servicio2 .CorreoP{
+    position: relative;
+    left: -35px;
+    bottom: 15px;
+    font-size: 15px;
+}
+
+.Final{
+    position: relative;
+    bottom: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Final .Final2{
+    position: relative;
+    left: -75px;
+    bottom: -50px;
+}
+
+.Final .Final3{
+    position: relative;
+    left: 89px ;
+    bottom: 56px;
+}
+
+@media screen and (max-width:858px) {
+    li{
+        display: none;
+    }
+    .Menu{
+        display: block;
+        position: relative;
+        left: -500px;
+    }
+  }
+
+    
+
+
+@media screen and (max-width: 2298px){
+     ul{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        left: 100px;
+    }
+
+    .Letters .description{
+        font-size: 40px;
+       
+    }
+    .Letters .tittle{
+        font-size: 7rem ;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .Contenedores{
+        position: relative;
+        left: 40px;
+        
+    }
+
+    .mi-persona .Parrafo{
+        font-size:2.8rem ;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .mi-persona .tittle2{
+        font-size: 2.5rem;
+    }
+
+    .mi-persona img{
+        position: relative;
+        left: 680px;
+        bottom: -750px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .section-Habilidades .Habilidad{
+        font-size: 3rem ;
+        
+    }
+
+    .section-Habilidades{
+        margin-bottom: 4rem;
+    }
+
+    .section-Habilidades .Ventajas{
+        width: 490px;
+        height: 420px;
+        margin-right: 2rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 80%;
+        position: relative;
+        left: 30px;
+    }
+
+    .section-Habilidades .p1{
+        position: relative;
+        bottom: -70px;
+        left: -110px;
+    }
+
+    .section-Habilidades .p2{
+        position: relative;
+        bottom: -65px;
+        left: -95px;
+    }
+    
+    .section-Habilidades .p3{
+        position: relative;
+        bottom: -65px ;
+        left: -100px;
+    }
+
+    .section-Habilidades .p4{
+        position: relative;
+        bottom: -60px;
+        left: -100px;
+    }
+
+    .Experiencia .one{
+        width: 60%;
+    }
+
+    .Experiencia .Vector{
+        width: 200px;
+        height: 200px;
+    }
+    .Experiencia .Años{
+        position: relative;
+        left: 270px;
+        bottom: -90px;
+       }
+    .Experiencia .Tittle3{
+        font-size: 50px;
+       
+    }
+
+    .Experiencia .two{
+        width: 60%;
+    }
+    .Experiencia .Años2{
+        position: relative;
+        left: 270px;
+        bottom: -40px;
+    }
+
+    .Experiencia .Años3{
+        position: relative;
+        left: 270px;
+        bottom: 15px;
+    }
+
+    .Evidencias .Titulo{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+     .Evidencias .imagen-p img {
+        width: 300px;
+        height: 300px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+        margin: auto;
+       
+    }
+
+    .imagen-p .Picture1{
+        position: relative;
+        left: 10rem;
+    }
+
+    .imagen-p .Picture2{
+      position: relative;
+      left: 600px;
+      bottom: 505px;
+    }
+
+    .imagen-p .Picture3{
+        position: relative;
+        left: 70% ;
+        bottom: 810px ;
+    }
+
+    .Section-Contacto h2{
+        position: relative;
+        bottom: 750px;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .Section-Contacto img{
+      position: relative;
+      left: 38%;
+      bottom: 600px;
+    }
+
+    .Section-Contacto .Contacto{
+        position: relative;
+        left:36% ;
+        bottom: 620px;
+    }
+
+    .Section-Contacto .Contacto2{
+        position: relative;
+        left: 38%;
+        bottom: 610px;
+    }
+
+    .Section-Contacto .EmailP{
+        position: relative;
+        left: 40%;
+        bottom: 615px;
+
+    }
+
+    .Section-Contacto .CorreoP{
+        position: relative;
+        left: 35%;
+        bottom: 606px;
+    }
+
+    .Final .Final2{
+       position: relative;
+       bottom: 600px;
+    }
+    .Final img {
+        position: relative;
+        bottom: 650px;
+    }
+
+    .Final .Final3{
+        position: relative;
+        bottom: 707px;
+    }
+
+    .Ventajas .v2 img{
+        position: relative;
+        left: 45px;
+    }
+   
+
+
+    
+}
+
+
+
+
+@media screen and (max-width:970px){
+    .header{
+       width: 90%;
+    }
+
+    .Navegador .Menu{
+        position: relative;
+        left: 200px;
+
+    }
+
+    .Informacion .tittle{
+        font-size: 60px;
+    }
+    .Informacion .description{
+        font-size: 30px;
+    }
+
+    .Contenedores .circle{
+        width: 10px;
+        height: 10px;
+        position: relative;
+        left: -60px;
+    }
+    .mi-persona .Parrafo{
+        font-size: 20px;
+    }
+
+    .section-Habilidades .Habilidad{
+        position: relative;
+        bottom: 100px;
+        left: -50px;
+    } 
+
+    .section-Habilidades{
+        position: relative;
+        left: 60px;
+    }
+    .Ventajas .v2 img{
+        position: relative;
+        bottom: 290px;
+        left: 75px;
+       
+       
+    }
+    .Ventajas .v0 img{
+        position: relative;
+        bottom: 150px;
+        left: 20px;
+    }
+    .Ventajas .p1{
+        position: relative;
+        bottom:60px ;
+        left: -100px ;
+    }
+
+    .Ventajas .v1 img{
+        position: relative;
+        bottom: 220px;
+        left:10px ;
+    }
+    .Ventajas .p2{
+        position: relative;
+        bottom: 150px;
+       
+    }
+    .Ventajas .p3{
+        position: relative;
+        bottom: 220px;
+        left: -90px;
+    }
+    .Ventajas .v3 img{
+        position: relative;
+        bottom: 280px ;
+        left: 15px;
+    }
+    .Ventajas .p4{
+        position: relative;
+        bottom: 200px;
+        left: -90px;
+
+    }
+
+    .Experiencia .one{
+        width: 90%;
+    }
+    .Contenido-article .Años{
+        position: relative;
+        left: -1px;
+        bottom: -50px;
+    }
+    .Experiencia .two{
+        width: 90%;
+    }
+    .Contenido-article .Años2{
+        position: relative;
+        bottom: 10px ;
+        left: -1px;
+    }
+    .Contenido-article .Años3{
+        position: relative;
+        left: -5px;
+        bottom: 60px;
+    }
+
+    .imagen-p .Picture1{
+        position: relative;
+        left: 225px;
+        
+    }
+
+    .imagen-p .Picture2{
+        position: relative;
+        left: 225px ;
+        bottom: 150px;
+        
+    }
+    .imagen-p .Picture3{
+        position: relative;
+        left: 225px ;
+        bottom: 50px;
+    }
+
+    .Section-Contacto{
+        position: relative;
+        bottom: -880px;
+        left: -150px;
+       
+    }
+
+    .Final{
+        position: relative;
+        bottom:-700px;
+        text-align: center;
+        left: -5px;
+    }
+    .Section-Contacto h2{
+        position: relative;
+        left: 150px;
+        font-size: 50px;
+
+    }
+
+    .Menu{
+        display: block;
+        position: relative;
+        left: 500px;
+    }
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
