@@ -332,15 +332,7 @@ ul .Nope{
     bottom: 56px;
 }
 
-@media screen and (max-width:858px) {
-   
-   
-  }
-
-    
-
-
-@media screen and (max-width: 2298px){
+  @media screen and (max-width: 1200px){
      ul{
         width: 60%;
         display: flex;
@@ -739,18 +731,18 @@ ul .Nope{
         position: relative;
         left: 145px;
 
-}
+   }
 
-li{
+   li{
     display: none;
-}
+   }
 
-.Menu{
+  .Menu{
     display: block;
     position: relative;
     left: -500px;
 }
 
-   }
+}
 
     
