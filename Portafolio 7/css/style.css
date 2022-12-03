@@ -570,9 +570,29 @@ transform: translateY(-3px) scale(1.05);
 
     .Informacion .tittle{
         font-size: 60px;
+        text-align: center;
+        position: relative;
+        left: 15px;
     }
+
+    .Informacion .info{
+        width: 350px;
+        height: 350px;
+    }
+    
+    
+    
     .Informacion .description{
         font-size: 30px;
+        text-align: center;
+        position: relative;
+        left: 10px;
+    }
+
+    .mi-persona .Parrafo{
+        text-align: center;
+        position: relative;
+        left: 15px;
     }
 
     .Contenedores .circle{
@@ -588,13 +608,10 @@ transform: translateY(-3px) scale(1.05);
     .section-Habilidades .Habilidad{
         position: relative;
         bottom: 100px;
-        left: -50px;
+        left: 25px;
     } 
 
-    .section-Habilidades{
-        position: relative;
-        left: 60px;
-    }
+    
     .Ventajas .v2 img{
         position: relative;
         bottom: 290px;
@@ -641,7 +658,8 @@ transform: translateY(-3px) scale(1.05);
     }
 
     .Experiencia .one{
-        width: 90%;
+        width: 100%;
+       
     }
     .Contenido-article .Años{
         position: relative;
@@ -649,7 +667,7 @@ transform: translateY(-3px) scale(1.05);
         bottom: -50px;
     }
     .Experiencia .two{
-        width: 90%;
+        width: 100%;
     }
     .Contenido-article .Años2{
         position: relative;
@@ -664,20 +682,20 @@ transform: translateY(-3px) scale(1.05);
 
     .imagen-p .Picture1{
         position: relative;
-        left: 225px;
+        left: 70px;
         
     }
 
     .imagen-p .Picture2{
         position: relative;
-        left: 225px ;
-        bottom: 150px;
+        left: 70px ;
+        bottom: 195px;
         
     }
     .imagen-p .Picture3{
         position: relative;
-        left: 225px ;
-        bottom: 50px;
+        left: 70px ;
+        bottom: 175px;
     }
 
     .Section-Contacto{
@@ -705,6 +723,8 @@ transform: translateY(-3px) scale(1.05);
         position: relative;
         left: 500px;
     }
+
+    
 
 }
 
