@@ -332,7 +332,7 @@ ul .Nope{
     bottom: 56px;
 }
 
-  @media screen and (max-width: 1200px){
+  @media screen and (max-width: 2298px){
      ul{
         width: 60%;
         display: flex;
