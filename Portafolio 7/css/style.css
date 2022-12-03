@@ -41,12 +41,18 @@ ul{
     margin: auto;
     list-style-type: none;
     cursor: pointer;
+    color: #FFFFFF;
    
     
 }
 ul :hover{
     transform: translateY(-3px) scale(1.05);
+    background-color: #b69955;
     
+}
+
+ul .Nope{
+    color: #adadad;
 }
 
 
@@ -82,10 +88,11 @@ ul :hover{
     cursor: pointer;
    
 }
-
 .Contenedores .circle:hover{
-transform: translateY(-3px) scale(1.05);
+    transform: translateY(-3px) scale(1.05);
+    
 }
+
 .mi-persona{
     color: #FFFFFF;
     text-align: center;
@@ -474,7 +481,7 @@ transform: translateY(-3px) scale(1.05);
        
     }
 
-    .imagen-p .Picture1{
+    .imagen-p .Picture1 {
         position: relative;
         left: 10rem;
     }
