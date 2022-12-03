@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 
-
 *{
     padding: 0;
     border: 0;
@@ -548,10 +547,8 @@ transform: translateY(-3px) scale(1.05);
         position: relative;
         left: 45px;
     }
-   
-
-
     
+   
 }
 
 
@@ -578,6 +575,8 @@ transform: translateY(-3px) scale(1.05);
     .Informacion .info{
         width: 350px;
         height: 350px;
+        position: relative;
+        left: 10px;
     }
     
     
@@ -603,6 +602,12 @@ transform: translateY(-3px) scale(1.05);
     }
     .mi-persona .Parrafo{
         font-size: 20px;
+    }
+
+    .mi-persona img{
+        position: relative;
+        left: 220px;
+        bottom: 5px;
     }
 
     .section-Habilidades .Habilidad{
@@ -659,33 +664,45 @@ transform: translateY(-3px) scale(1.05);
 
     .Experiencia .one{
         width: 100%;
+        position: relative;
+        left: 10px;
        
     }
     .Contenido-article .Años{
         position: relative;
-        left: -1px;
+        left: 5px;
         bottom: -50px;
     }
     .Experiencia .two{
         width: 100%;
+        position: relative;
+        left: 10px;
     }
     .Contenido-article .Años2{
         position: relative;
         bottom: 10px ;
-        left: -1px;
+        left: 5px;
     }
     .Contenido-article .Años3{
         position: relative;
-        left: -5px;
+        left: 5px;
         bottom: 60px;
     }
 
     .imagen-p .Picture1{
         position: relative;
         left: 70px;
+       
         
     }
+    
+    .Evidencias .imagen-p img{
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 10px;
 
+    }
     .imagen-p .Picture2{
         position: relative;
         left: 70px ;
@@ -701,7 +718,7 @@ transform: translateY(-3px) scale(1.05);
     .Section-Contacto{
         position: relative;
         bottom: -880px;
-        left: -150px;
+        left: -155px;
        
     }
 
@@ -709,21 +726,15 @@ transform: translateY(-3px) scale(1.05);
         position: relative;
         bottom:-700px;
         text-align: center;
-        left: -5px;
+        left: -3px;
     }
     .Section-Contacto h2{
         position: relative;
-        left: 150px;
+        left: 160px;
         font-size: 50px;
-
     }
 
-    .Menu{
-        display: block;
-        position: relative;
-        left: 500px;
-    }
-
+   
     
 
 }
