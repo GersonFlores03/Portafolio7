@@ -12,3 +12,5 @@ function ocultar_menu(){
     contenido.style.right = "-350px";
     colorMenu.style.display="none"
 }
+
+

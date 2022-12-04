@@ -75,6 +75,8 @@ ul .Nope{
     width: 450px;
     height: 450px;
     border-radius: 50%;
+    position: relative;
+    left: 15px;
 }
 
 
@@ -773,7 +775,8 @@ bottom: -10px;
     align-items: flex-start;
     gap: 1rem;
     position: relative;
-    left: 30px;
+    left: 40px;
+    bottom: 2rem;
    
    }
 
@@ -784,7 +787,7 @@ bottom: -10px;
    .Contenido ul li{
     text-decoration: none;
     font-size: 16px;
-    color: red;
+    color: black;
     list-style: none;
     margin-left: 36px;
     margin-top: 30px;
