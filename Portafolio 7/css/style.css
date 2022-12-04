@@ -333,14 +333,14 @@ ul .Nope{
 }
 
   
-     ul{
-        width: 60%;
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        left: 100px;
-        bottom: -10px;
-    }
+ul{
+width: 60%;
+display: flex;
+justify-content: space-between;
+position: relative;
+left: 100px;
+bottom: -10px;
+}
 
     .Informacion .description{
         font-size: 45px;
@@ -561,13 +561,7 @@ ul .Nope{
         display: none;
     }
     
-   
-
-
-
-
-
-@media screen and (max-width:720px){
+  @media screen and (max-width:720px){
     .header{
        width: 90%;
     }
@@ -826,9 +820,6 @@ ul .Nope{
     left: 350px;
     cursor: pointer;
 }
-
-
-
 }
 
     
