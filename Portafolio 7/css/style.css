@@ -339,21 +339,38 @@ ul .Nope{
         justify-content: space-between;
         position: relative;
         left: 100px;
+        bottom: -10px;
     }
 
-    .Letters .description{
-        font-size: 40px;
+    .Informacion .description{
+        font-size: 45px;
        
     }
-    .Letters .tittle{
+
+    .Informacion .info{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 1rem;
+
+    }
+
+
+    .Informacion .tittle{
         font-size: 7rem ;
         font-family: 'Rubik', sans-serif;
+        color: #FFFFFF;
     }
 
     .Contenedores{
         position: relative;
         left: 40px;
         
+    }
+    .Contenedores .circle{
+        position: relative;
+        left: 140px;
+        bottom: 40px;
     }
 
     .mi-persona .Parrafo{
@@ -540,6 +557,9 @@ ul .Nope{
         position: relative;
         left: 45px;
     }
+    #btn{
+        display: none;
+    }
     
    
 }
@@ -547,7 +567,7 @@ ul .Nope{
 
 
 
-@media screen and (max-width:970px){
+@media screen and (max-width:720px){
     .header{
        width: 90%;
     }
@@ -558,18 +578,21 @@ ul .Nope{
 
     }
 
-    .Informacion .tittle{
+     .Informacion .tittle{
         font-size: 60px;
         text-align: center;
         position: relative;
         left: 15px;
+        color: #FFFFFF;
+
     }
 
-    .Informacion .info{
-        width: 350px;
-        height: 350px;
+    .Div.Informacion .info{
+        width: 200px;
+        height: 200px;
         position: relative;
         left: 10px;
+        display: none;
     }
     
     
@@ -591,7 +614,7 @@ ul .Nope{
         width: 10px;
         height: 10px;
         position: relative;
-        left: -60px;
+        bottom: 80px;
     }
     .mi-persona .Parrafo{
         font-size: 20px;
@@ -733,8 +756,44 @@ ul .Nope{
 
    }
 
-   li{
-    display: none;
+   .Contenido nav{
+    position: fixed;
+    top: 0;
+    right: -350px;
+    background: #FFFFFF;
+    width: 340px;
+    height: 100vh;
+    padding: -40px;
+    display: flex;
+    z-index: 1;
+    transition: all 700ms;
+    
+   }
+
+   .Contenido ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    position: relative;
+    left: 30px;
+   
+   }
+
+   
+
+   
+
+   .Contenido ul li{
+    text-decoration: none;
+    font-size: 16px;
+    color: red;
+    list-style: none;
+    margin-left: 36px;
+    margin-top: 30px;
+    margin-left: 0;
+    
    }
 
   .Menu{
@@ -742,6 +801,31 @@ ul .Nope{
     position: relative;
     left: -500px;
 }
+
+#back-Menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    
+   
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 350px;
+    cursor: pointer;
+}
+
+
 
 }
 
