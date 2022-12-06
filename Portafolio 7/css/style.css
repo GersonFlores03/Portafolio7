@@ -9,6 +9,7 @@
 body{
    background-color: #020403 ;
    font-family: 'Rubik', sans-serif;
+   overflow-x: hidden;
 }
 
 .Contenido{
